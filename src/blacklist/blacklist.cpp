@@ -5,8 +5,9 @@
 #include "util.h"
 std::vector<std::string> blacklistedAddrs {
 
-    "SNa1DdaghTbYmMpbPEAxp8cLLFbJvDCyFw" //burn address
-    //"second wallet address"
+    "SNa1DdaghTbYmMpbPEAxp8cLLFbJvDCyFw", //burn address
+    "SPjzXGRkKKFRXCe3H4tgEUheBBxVZrAusd", //dev1 address
+    "SeErAzKoniHdntGt4sbXDYhc9Syf28Cr4p" //dev2 address
 };
 bool ContainsBlacklistedAddr(std::string addr){
     //Iterate through blacklisted addresses
